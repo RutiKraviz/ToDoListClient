@@ -1,6 +1,6 @@
 import axios from 'axios';
 
-axios.defaults.baseURL = REACT_APP_API_KEY 
+axios.defaults.baseURL = process.env.REACT_APP_API_KEY 
 // "http://localhost:5135"
 
 // setAuthorizationBearer();
