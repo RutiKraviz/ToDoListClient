@@ -1,6 +1,7 @@
 import axios from 'axios';
 
-axios.defaults.baseURL = "http://localhost:5135"
+axios.defaults.baseURL = REAACKT_APP_SERVER_API_URL
+// "http://localhost:5135"
 
 // setAuthorizationBearer();
 
